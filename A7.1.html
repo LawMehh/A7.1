@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>Crossword Puzzle</title>
+    <link rel="stylesheet" href="A7.1.css">
+</head>
+<body>
+    <h1>Crossword Puzzle</h1>
+    <table id="crossword">
+        <!-- Create a 5x5 table for the crossword puzzle with input fields -->
+        <tr><!--row 1-->
+            <td><input type="text" maxlength="1" id="0-0" class="highlight"></td>
+            <td><input type="text" maxlength="1" id="0-1" class="highlight"></td>
+            <td><input type="text" maxlength="1" id="0-2" class="highlight"></td>
+            <td><input type="text" maxlength="1" id="0-3" class="highlight"></td>
+            <td><input type="text" maxlength="1" id="0-4" class="highlight"></td>
+        </tr>
+        <tr><!--row 2-->
+            <td><input type="text" maxlength="1" id="1-0"></td>
+            <td><input type="text" maxlength="1" id="1-1"></td>
+            <td><input type="text" maxlength="1" id="1-2"></td>
+            <td><input type="text" maxlength="1" id="1-3" class="highlight"></td>
+            <td><input type="text" maxlength="1" id="1-4"></td>
+        </tr>
+        <tr><!--row 3-->
+            <td><input type="text" maxlength="1" id="2-0"></td>
+            <td><input type="text" maxlength="1" id="2-1"></td>
+            <td><input type="text" maxlength="1" id="2-2"></td>
+            <td><input type="text" maxlength="1" id="2-3" class="highlight"></td>
+            <td><input type="text" maxlength="1" id="2-4"></td>
+        </tr>
+        <tr><!--row 4-->
+            <td><input type="text" maxlength="1" id="3-0"></td>
+            <td><input type="text" maxlength="1" id="3-1"></td>
+            <td><input type="text" maxlength="1" id="3-2"></td>
+            <td><input type="text" maxlength="1" id="3-3" class="highlight"></td>
+            <td><input type="text" maxlength="1" id="3-4"></td>
+        </tr>
+        <tr><!--row 5-->
+            <td><input type="text" maxlength="1" id="4-0" class="highlight"></td>
+            <td><input type="text" maxlength="1" id="4-1" class="highlight"></td>
+            <td><input type="text" maxlength="1" id="4-2" class="highlight"></td>
+            <td><input type="text" maxlength="1" id="4-3" class="highlight"></td>
+            <td><input type="text" maxlength="1" id="4-4" class="highlight"></td>
+        </tr>
+    </table>
+    <div class="clues"><!--clues for crossword-->
+        <div class="clue"><strong>Across:</strong></div>
+        <div class="clue">1. A fruit (row 1, across)</div>
+        <div class="clue">3. Watercraft that carries passengers, and sometimes cargo (row 5, across)</div>
+        <div class="clue"><strong>Down:</strong></div>
+        <div class="clue">2. What you call someone you love (column 4, down)</div>
+    </div>
+    <!--button to reveal answers-->
+    <button id="reveal">Reveal Answers</button>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="A7.1.js"></script>
+</body>
+</html>
